@@ -5,6 +5,7 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.css";
 
+import "./global.css";
 import BadgeNew from "./pages/BadgeNew";
 
 ReactDOM.render(<BadgeNew />, document.getElementById("root"));
